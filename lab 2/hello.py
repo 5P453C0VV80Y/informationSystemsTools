@@ -54,8 +54,8 @@ z = (not (a or b) and c)
 print(z)
 print('--------TASK 7--------')
 
-#TODO: didnt quite understand how to structure the solution
 #task 8
+#TODO: didnt quite understand how to structure the solution
 print('enter the year')
 year = int(input())
 if((year > 1900) and (year < 3000)):
@@ -94,6 +94,7 @@ print('summ of entered values:',result)
 print('--------TASK 10--------')
 
 #task 11
+# TODO: ???
 p = int(input())
 k = int(input())
 
