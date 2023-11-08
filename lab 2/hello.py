@@ -129,3 +129,55 @@ print()
 
 #task 14
 print('--------TASK 14--------')
+n = int(input('enter matrix: '))
+a = [[0] * n for i in range(n)]
+count = 0
+for i in range(n):  
+    #filling first row
+    count += 1
+    a[0][i] = count
+j = 0
+i = n-1  
+n -= 1 
+#setting the size
+while len(a)**2 != count: 
+#exit condition
+    for k in range(n): 
+        #moving down
+        j += 1
+        count += 1
+        a[j][i] = count
+    for k in range(n): 
+        #moving left
+        i -= 1
+        count += 1
+        a[j][i] = count
+    for k in range(n-1): 
+        #moving up
+        j -= 1
+        count += 1
+        a[j][i] = count
+    for k in range(n-1):
+        #moving right
+        i += 1
+        count += 1
+        a[j][i] = count
+        n -= 2
+        #transition
+    for i in range(len(a)):
+        for j in range(len(a[i])):
+            print(a[i][j], end=' ')
+        print()
+
+#task 15
+print('--------TASK 15--------')
+import time
+from tkinter import messagebox
+
+while True:
+#a cycle for infinity
+    time.sleep(10)
+    #every ten seconds
+    if __name__ == '__main__':
+        messagebox.showinfo('Useful Python', 'turn around')
+    else: print('uga')
