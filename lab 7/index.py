@@ -1,6 +1,9 @@
 # !C:\Users\office\AppData\Local\Programs\Python\Python312\python.exe
 import telebot;
-bot = telebot.TeleBot('6877060037:AAFV73CQF50UC-990rMAYtqrh0XBQeA4kEo');
+# надо раскомментить, чтобы работало, ибо гитхаб жалуется на слитый токен
+# но работает только в теории, бота я удалил и токен, соответственно тоже
+# но(2) все работает, клянусь
+# bot = telebot.TeleBot('6877060037:AAFV73CQF50UC-990rMAYtqrh0XBQeA4kEo');
 
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
