@@ -5,6 +5,10 @@ from .forms import NameForm
 from .models import SearchingUsers
 # Create your views here.
 
+"""
+сделал это просто чтобы потестить doxygen
+"""
+
 
 # создание формы ввода
 def get_name(request):

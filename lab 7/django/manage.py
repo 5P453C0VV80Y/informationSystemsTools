@@ -6,11 +6,11 @@ import django
 import pymysql
 
 connect = pymysql.connect(
-    host="127.0.0.1",
-    port='8000',
-    user="root",
-    password="pass",
-    db="my_db")
+    host='localhost',
+    port=3306,
+    user='root',
+    password='pass',
+    database='my_db')
 
 cursor = connect.cursor()
 
