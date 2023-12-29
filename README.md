@@ -8,5 +8,5 @@ this repository was created to host laboratory work in it.
 * ~~lab 5~~
 * ~~lab 6~~
 * ~~lab 7~~
-* lab 8
+* ~~lab 8~~
 
