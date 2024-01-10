@@ -28,7 +28,7 @@ asd = int(5.7)
 print(asd)
 asdf = int(-5.7)
 print(asdf)
-asdfg = int(float(3 ** 39))
+asdfg = 3**39 - int(float(3 ** 39))
 print(asdfg)
 #получилось очень большое число (????)
 
@@ -43,7 +43,8 @@ print('how many hours did the doctor drive to work?')
 x = int(input())
 print('how many minutes did the doctor walk from lunch to work?')
 y = int(input())
-print('minutes spent on the road:', ((x * 60) + y))
+asfsa = ((x * 60) + y)
+print('minutes spent on the road:', (asfsa * 2))
 
 #task 7
 print('--------TASK 7--------')
