@@ -9,15 +9,16 @@ else:
 
 #task 2
 m = []
-s = ['end'] #остановка
+s = ['end'] #cnjgth
 while True:
-    n = input().split() #аутпут сплит
-    k = min(n) #поиск min
+    n = input().split()
     if n == s:
         break
-    m.append(k)
-for i in m: #вывод
-    print(i)  
+    else:
+        k = min(n, key=int)
+        m.append(k)
+for i in m:
+    print(i)    
 
 #task 3
 m = [] #список
